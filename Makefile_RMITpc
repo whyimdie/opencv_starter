@@ -16,7 +16,7 @@ LIBS = -lopencv_core310.dll -lopencv_imgproc310.dll -lopencv_highgui310.dll \
 
 LIBPATH =  -L"c:\Program Files\opencv\build\x64\mingw_1\lib"
 
-TARGET = opencv_demo1.exe
+TARGET = opencv_testing.exe
 
 .o.exe:
 	$(CXX) -o $@ $< $(LIBPATH) $(LIBS)
